@@ -1,14 +1,18 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  video : true,
   e2e: {
-    //baseUrl:'http://localhost:63352',
-    excludeSpecPattern:['**/1-getting-started','**/2-advanced-examples'],
-    specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}',
-    watchForFileChanges:false,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
+    experimentalRunAllSpecs: true,
+    "defaultCommandTimeout" : 8000,
+      "pageLoadTimeout": 150000,
+       viewportWidth: 1700,
+       viewportHeight: 1050,
+       baseUrl: "https://www.saucedemo.com/",
+       video: true,
+
     },
-  },
+
+    
+  
 });
+

@@ -1,15 +1,17 @@
 {
-  "name": "cypresstestcases",
+  "name": "swaglab",
   "version": "1.0.0",
+  "description": "PEERLESS_ASSESSMENT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Bayowa Toritseju",
   "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "swaglab": "file:"
+  },
   "devDependencies": {
-    "cypress": "^13.13.3"
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }

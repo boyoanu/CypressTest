@@ -1,0 +1,22 @@
+{
+    "validUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "invalidUser": {
+      "username": "Bayowa",
+      "password": "123456"
+    },
+    "lockedUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    },
+    "checkoutInfo": {
+      "firstName": "Joe",
+      "lastName": "Doe",
+      "postalCode": "123456",
+      "postalCodeError": " "
+
+    }
+  }
+  
